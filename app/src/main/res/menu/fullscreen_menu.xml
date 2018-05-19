@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/connection_id"
+        android:title="Status"
+        android:icon="@drawable/redcircle"
+        android:enabled="false"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/settings_id"
+        android:title="Settings"
+        android:icon="@mipmap/ic_settings_white_48dp"
+        app:showAsAction="always">
+    </item>
+</menu>
